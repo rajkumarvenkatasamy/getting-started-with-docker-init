@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def welcome():
-    return 'Welcome to the Docket Init tutorial'
+    return 'Welcome to the Docker Init tutorial'
 
 
 if __name__ == '__main__':
